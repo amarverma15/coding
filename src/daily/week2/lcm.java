@@ -8,20 +8,17 @@ public class lcm {
         Scanner sc = new Scanner(System.in);
         int marks;
         marks = sc.nextInt();
-        if (marks >=60 && marks<=100) {
+        if (marks >= 60 && marks <= 100) {
             System.out.println("you got first division");
-        }
-        else if(marks>=50 && marks<60) {
+        } else if (marks >= 50 && marks < 60) {
             System.out.println("you got second division");
-        }
-        else if (marks>=33 && marks<50) {
+        } else if (marks >= 33 && marks < 50) {
             System.out.println("you got third div");
-        }
-        else if (marks <0 || marks>100){
+        } else if (marks < 0 || marks > 100) {
             System.out.println("incorrect credential");
-        }
-        else {
+        } else {
             System.out.println("you failed");
         }
 
+    }
 }
