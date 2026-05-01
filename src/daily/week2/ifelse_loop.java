@@ -2,7 +2,7 @@ package daily.week2;
 
 import java.util.Scanner;
 
-public class lcm {
+public class ifelse_loop {
     public static void main(String[] args) {
         System.out.println("enter your marks");
         Scanner sc = new Scanner(System.in);
